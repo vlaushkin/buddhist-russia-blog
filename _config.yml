@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: Mangila
-logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo: '/images/core/logo.svg' # You can add own logo. For example '/images/logo.png'.
 description: Minimalistic and Elegant Theme
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,7 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Karen Millen
   bio: Hi, my name is Karen Millen. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
-  image: '/images/01.jpg'
+  image: '/images/core/01.jpg'
   avatar: '/images/15.jpg'
 
 # Example of adding a new link to the section author - {link: "https://github.com"}
@@ -25,7 +25,7 @@ author-social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__image: '/images/01.jpg'
+  hero__image: '/images/core/01.jpg'
   hero__title: Буддийская Россия
   hero__description: Блог о буддизме и буддийской традиции в России
 
