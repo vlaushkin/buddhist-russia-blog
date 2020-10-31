@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Mangila
+title: Буддийская Россия
 logo: '/images/core/logo.svg' # You can add own logo. For example '/images/logo.png'.
-description: Minimalistic and Elegant Theme
+description: Блог о буддизме и буддийской традиции в России
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
