@@ -1,0 +1,39 @@
+---
+layout: default
+image: '/images/50.jpg'
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-8 push-2 col-d-10 col-m-12 push-d-1 push-m-0">
+      <!-- begin page -->
+      <article class="page animate">
+        <div class="page__content">
+        
+<!-- 
+          <div class="article__author">
+              {% if page.avatar %}
+                <a href="{{ page.url }}" class="article__author-image" aria-label="{{page.name}}'s Picture"><img class="lazy" data-src="{{site.baseurl}}{{page.avatar}}" alt="{{page.name}}'s Picture"></a>
+              {% endif %}
+              <a href="{{ page.url }}" class="article__author-name">{{page.name}}</a>
+          </div>
+ -->
+          
+          <div class="post-author">          
+          	{% if page.avatar %}
+              <div href="{{ page.url }}" class="post-author__image" aria-label="{{page.name}}">
+                <img class="lazy" data-src="{{site.baseurl}}{{page.avatar}}" alt="{{page.name}}">
+              </div>
+              <div class="post-author__info">
+                  <h2 class="post-author__name"><div href="{{ page.url }}">{{page.name}}</div></h2>
+              </div>
+            {% endif %}
+        </div>
+      
+          {{ content }}
+        </div>
+      </article>
+      <!-- end page -->
+    </div>
+  </div>
+</div>

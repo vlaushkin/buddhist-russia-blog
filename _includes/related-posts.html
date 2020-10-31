@@ -76,12 +76,20 @@
       
                   <div class="article__bottom">
                     <div class="article__author">
-                      {% if site.author.avatar %}
-                      <a href="{{ site.baseurl }}/about/" class="article__author-image"
-                        aria-label="{{site.author.name}}'s Picture"><img class="lazy"
-                          data-src="{{site.baseurl}}{{site.author.avatar}}" alt="{{site.author.name}}'s Picture"></a>
+                      {% if post.author %}
+                        {% assign current_author = site.authors | where:"short_name", post.author | first %}
+            
+                        {% if current_author.avatar %}
+                          <a href="{{ current_author.url }}" class="article__author-image"
+                          aria-label="{{current_author.name}}'s Picture"><img class="lazy"
+                            data-src="{{current_author.avatar}}" alt="{{current_author.name}}'s Picture"></a>
+                        {% else %}
+                          <a href="{{ current_author.url }}" class="article__author-image"
+                          aria-label="{{current_author.name}}'s Picture"><img class="lazy"
+                            data-src="{{site.baseurl}}{{site.author.default_avatar}}" alt="{{current_author.name}}'s Picture"></a>
+                        {% endif %}
+                          <a href="{{ current_author.url }}" class="article__author-name">{{current_author.name}}</a>
                       {% endif %}
-                      <a href="{{ site.baseurl }}/about/" class="article__author-name">{{site.author.name}}</a>
                     </div>
       
                     <span class="article__minutes">

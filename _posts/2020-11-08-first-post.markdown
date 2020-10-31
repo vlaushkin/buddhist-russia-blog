@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  Believe and act as if it were impossible to fail
-date:   2018-11-05 15:01:35 +0300
-image:  '/images/11.jpg'
-tags:   Work
+title:  Начало
+date:   2020-11-08 01:20:00 +0300
+image:  '/images/post2020_11_08.jpg'
+tags:   Россия
 author: vlaushkin
-published: false
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis.
 Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam.

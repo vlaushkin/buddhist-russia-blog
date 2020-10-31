@@ -14,6 +14,7 @@ author:
   bio: Hi, my name is Karen Millen. Tellus vel sodales condimentum, urna ex tincidunt nisl, luctus gravida nunc nisi at risus. Nam eget bibendum odio. Nam dignissim odio quis ipsum tristique, at luctus ex volutpat. Maecenas ullamcorper imperdiet.
   image: '/images/core/01.jpg'
   avatar: '/images/15.jpg'
+  default_avatar: '/images/profiles/default.png'
 
 # Example of adding a new link to the section author - {link: "https://github.com"}
 author-social:
@@ -55,6 +56,10 @@ social:
 - {icon: "ion-logo-instagram", link: "https://instagram.com"}
 - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 - {icon: "ion-logo-github", link: "https://github.com"}
+
+collections:
+  authors:
+    output: true
 
 
 #-------------------------------
@@ -104,6 +109,11 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 
 include:
   - _pages

@@ -4,6 +4,7 @@ title:  Do what you can, with what you have, where you are
 date:   2018-11-12 15:01:35 +0300
 image:  '/images/04.jpg'
 tags:   Travels
+author: vlaushkin
 published: false
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis.
