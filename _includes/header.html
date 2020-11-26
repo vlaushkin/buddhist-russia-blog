@@ -55,7 +55,7 @@
  -->
 
                 <div class="nav-grid__item">
-                  <h2 class="nav-grid__title">Recent Posts</h2>
+                  <h2 class="nav-grid__title">Последние записи</h2>
                   <div class="widget-recent">
                     {% for post in site.posts limit:4 %}
                     <div class="widget-recent__posts">
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="nav-grid__item">
-                  <h2 class="nav-grid__title">Tag cloud</h2>
+                  <h2 class="nav-grid__title">Облако тегов</h2>
                   <div class="tag__cloud">
                     {{ site | tag_cloud }}
                   </div>

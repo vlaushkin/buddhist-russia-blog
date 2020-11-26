@@ -1,10 +1,17 @@
 ---
 layout: page
-title: About
+title: О блоге
 permalink: /about/
 image: '/images/50.jpg'
 ---
 
+Блог о буддизме и буддийской традиции в России.
+
+Блог ставит себе цель рассказать о истории и настоящем положении живой буддийской традиции в России.
+
+Не является религиозным, пропагандистским или научным изданием.
+
+<!-- 
 Hi, my name is Karen Millen. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari. 
 
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
@@ -25,3 +32,4 @@ In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum qui
 <p><iframe src="https://www.youtube.com/embed/nc4GiBEN08s" frameborder="0" allowfullscreen></iframe></p>
 
 Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim fitus dissolutum sit, id esse sine sensu, utilitas quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis voluptatibus? Utram tandem linguam nescio quod dicit.
+ -->
